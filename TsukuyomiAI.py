@@ -25,7 +25,7 @@ def completion(new_message_text:str, settings_text:str = '', past_messages:list 
 with open("chat_history.txt", mode = "r", encoding="utf_8") as f:
     history = f.read()
 
-character_settings = "あなたはツクヨミというキャラクターです。友達のようにタメ口で会話して"
+character_settings = "あなたはツクヨミというキャラクターです。カジュアル口調で会話して"
 
 history_settings = f"""また、ツクヨミは過去に以下のようなやり取りを行っています
 {history}

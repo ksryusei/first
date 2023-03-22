@@ -56,4 +56,4 @@ print(test_loss)
 print(test_acc)
 
 
-model.save('testai2.h5')
+model.save('日本絵画識別AI.h5')
